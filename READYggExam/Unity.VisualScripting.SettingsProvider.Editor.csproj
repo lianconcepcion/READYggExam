@@ -331,8 +331,20 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.Messaging">
+      <HintPath>Library\PackageCache\com.google.firebase.messaging@b388b26377\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNGameProgress">
+      <HintPath>Library\PackageCache\io.getready.rgn.gameprogress@84e51f5e02\ReadyGamesNetwork\Plugins\RGNGameProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Library\PackageCache\com.google.firebase.analytics@0273ec1f51\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNCurrency">
+      <HintPath>Library\PackageCache\io.getready.rgn.currency@ba93db57fc\ReadyGamesNetwork\Plugins\RGNCurrency.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Tracker.dll</HintPath>
@@ -343,14 +355,38 @@
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@f72125da94\ExternalDependencyManager\Editor\1.2.179\Google.PackageManagerResolver.dll</HintPath>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Library\PackageCache\com.google.firebase.app@7821c67ca2\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="RGNMatchmaking">
+      <HintPath>Library\PackageCache\io.getready.rgn.matchmaking@0c4c522eb8\ReadyGamesNetwork\Plugins\RGNMatchmaking.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNMessaging">
+      <HintPath>Library\PackageCache\io.getready.rgn.messaging@6806e52ba6\ReadyGamesNetwork\Plugins\RGNMessaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@f72125da94\ExternalDependencyManager\Editor\1.2.179\Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Messaging.Editor">
+      <HintPath>Library\PackageCache\com.google.firebase.messaging@b388b26377\Firebase\Editor\Firebase.Messaging.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Library\PackageCache\com.google.firebase.app@7821c67ca2\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@f72125da94\ExternalDependencyManager\Editor\1.2.179\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -358,8 +394,41 @@
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.Crashlytics.Editor">
+      <HintPath>Library\PackageCache\com.google.firebase.crashlytics@a08dc9f9e2\Firebase\Editor\Firebase.Crashlytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNVirtualItems">
+      <HintPath>Library\PackageCache\io.getready.rgn.virtualitems@92e9ed325f\ReadyGamesNetwork\Plugins\RGNVirtualItems.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNInventory">
+      <HintPath>Library\PackageCache\io.getready.rgn.inventory@687dfb67a1\ReadyGamesNetwork\Plugins\RGNInventory.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@f72125da94\ExternalDependencyManager\Editor\1.2.179\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNUserProfile">
+      <HintPath>Library\PackageCache\io.getready.rgn.userprofile@2ad9faef51\ReadyGamesNetwork\Plugins\RGNUserProfile.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNAnalytics">
+      <HintPath>Library\PackageCache\io.getready.rgn.analytics@44e7fa8ee9\ReadyGamesNetwork\Plugins\RGNAnalytics.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNWallets">
+      <HintPath>Library\PackageCache\io.getready.rgn.wallets@a04ff69256\ReadyGamesNetwork\Plugins\RGNWallets.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Crashlytics">
+      <HintPath>Library\PackageCache\com.google.firebase.crashlytics@a08dc9f9e2\Firebase\Plugins\Firebase.Crashlytics.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNSignInGuest">
+      <HintPath>Library\PackageCache\io.getready.rgn.signin.guest@f1a8074183\ReadyGamesNetwork\Plugins\RGNSignInGuest.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNCore">
+      <HintPath>Library\PackageCache\io.getready.rgn.core@c657d8920e\ReadyGamesNetwork\Plugins\RGNCore.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNLeaderboard">
+      <HintPath>Library\PackageCache\io.getready.rgn.leaderboard@e28720260f\ReadyGamesNetwork\Plugins\RGNLeaderboard.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -367,8 +436,29 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Library\PackageCache\com.google.firebase.app@7821c67ca2\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Library\PackageCache\com.google.firebase.app@7821c67ca2\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNAchievement">
+      <HintPath>Library\PackageCache\io.getready.rgn.achievement@db54674f7b\ReadyGamesNetwork\Plugins\RGNAchievement.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNStore">
+      <HintPath>Library\PackageCache\io.getready.rgn.store@efc51553bd\ReadyGamesNetwork\Plugins\RGNStore.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Editor">
+      <HintPath>Library\PackageCache\com.google.firebase.app@7821c67ca2\Firebase\Editor\Firebase.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="RGNGamePass">
+      <HintPath>Library\PackageCache\io.getready.rgn.gamepass@685801dd63\ReadyGamesNetwork\Plugins\RGNGamePass.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@f72125da94\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
