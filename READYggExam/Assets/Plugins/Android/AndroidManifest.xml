@@ -10,7 +10,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
-        </activity>
+        <intent-filter>
+<action android:name="android.intent.action.VIEW" />
+<category android:name="android.intent.category.DEFAULT" />
+<category android:name="android.intent.category.BROWSABLE" />
+<data android:scheme="rgnj7dduzqvjofxdh2fh8hc" android:host="" />
+</intent-filter>
+</activity>
     </application>
 
 </manifest>
