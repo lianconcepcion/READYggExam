@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.IO;
 using System.Collections.Generic;
+using RGN.Modules.Currency;
 #if UNITY_ANALYTICS
 using UnityEngine.Analytics;
 #endif
@@ -394,6 +395,7 @@ public class PlayerData
         w.Write(s_Version);
         w.Write(coins);
 
+        AddSoftCurrenciesAsync();
         w.Write(consumables.Count);
         foreach(KeyValuePair<Consumable.ConsumableType, int> p in consumables)
         {
@@ -459,7 +461,17 @@ public class PlayerData
         w.Close();
     }
 
-
+    // Manage Soft Currency on save
+    public async void AddSoftCurrenciesAsync()
+    {
+        Currency fishBones = new Currency
+        {
+            name = "fishbone",
+            quantity = coins
+        };
+        List<Currency> currenciesToAdd = new List<Currency> { fishBones };
+        await CurrencyModule.I.AddUserCurrenciesAsync(currenciesToAdd);
+    }
 }
 
 // Helper class to cheat in the editor for test purpose
